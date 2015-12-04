@@ -1,0 +1,10 @@
+<h1><%= @event.name %></h1>
+
+<%= @event.description %>
+
+<p>
+  in <%= @event.location %>: <%= format_price(@event)%>
+</p>
+<p>
+  starts at <%= @event.starts_at %>
+</p>
